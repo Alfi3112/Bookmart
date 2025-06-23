@@ -1,0 +1,17 @@
+.bookDetails {
+  & > p {
+    margin-bottom: 8px;
+  }
+}
+.bookDetailsCover {
+  width: 100%;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h3 {
+  margin-bottom: 24px;
+  font-size: 1.5em;
+}

@@ -1,0 +1,26 @@
+.sidebarWrapper {
+  box-sizing: border-box;
+  background: #fff;
+  min-height: calc(100vh - 40px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 18px 18px 18px 10px;
+  z-index: 10;
+
+  .logoVertical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+    margin: 16px;
+  }
+
+  @media (max-width: 999px) {
+    margin: 62px 0px 0px 0px;
+    border-radius: 0;
+    min-height: calc(100vh - 60px);
+    .logoVertical {
+      display: none;
+    }
+  }
+}
