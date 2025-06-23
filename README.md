@@ -33,7 +33,7 @@ Start the development server:
 pnpm run dev
 
 🚀 Usage
-Open your browser and navigate to http://localhost:5173
+Open your browser and navigate.
 Use the sidebar to navigate between the different sections of the app:
 🏠 Home: View all books
 ❤️ Favorites: View your favorite books
