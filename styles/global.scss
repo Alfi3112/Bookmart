@@ -1,0 +1,25 @@
+@import 'reset';
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f9fe;
+}
+
+#root {
+  .ant-layout {
+    background: #f6f9fe;
+  }
+
+  .main-container {
+    transition: all 0.3s;
+    margin-left: 200px;
+    @media (max-width: 999px) {
+      margin-left: 0px;
+    }
+    &.collapsed {
+      margin-left: 0px;
+    }
+  }
+}

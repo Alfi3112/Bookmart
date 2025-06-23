@@ -1,0 +1,19 @@
+.createBookPage {
+  padding: 24px 16px;
+  border-radius: 8px;
+  margin: 0px 16px 50px;
+
+  h2 {
+    margin: 0 0 24px 0;
+  }
+
+  :global(.ant-card) {
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 999px) {
+    padding: 0;
+    padding-top: 50px;
+  }
+}
