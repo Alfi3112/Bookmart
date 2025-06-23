@@ -21,8 +21,7 @@ Demo
 🚦 react-router-dom
 ⚡ Vite
 📦 Installation
-Clone the repository:
-git clone https://github.com/junaid7lone/bookmart.git
+
 
 Navigate to the project directory:
 cd bookmart
